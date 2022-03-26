@@ -10,18 +10,26 @@ namespace PBL_3
     internal class List_user
     {
         List<Infor_user> list_user;
-        SqlDataReader reader;
+        SqlDataReader reader ;
         public List<Infor_user> getDataUser()
         {
-            Sql_connect sQL_Connect = new Sql_connect();
-            SqlConnection cn = sQL_Connect.connect();
             List<Infor_user> ls = new List<Infor_user>();
-            cn.Open();
-            while (reader.Read()== true)
+            Sql_connect sQL_Connect = new Sql_connect();
+            using (SqlConnection cn = sQL_Connect.connect())
             {
-                list_user.Add(new Infor_user(reader.GetInt32(0), reader.GetString(1), reader.GetString(2), reader.GetString(3), reader.GetDateTime(4), reader.GetString(5), reader.GetString(6), reader.GetString(7)));
+                //Sql_connect sQL_Connect = new Sql_connect();
+                //SqlConnection cn = sQL_Connect.connect();
+                cn.Open();
+                string sql = "select * from Infor_user";
+                SqlCommand cmd = new SqlCommand(sql, cn);
+                SqlDataReader reader = cmd.ExecuteReader();             
+
+                while (reader.Read())
+                {
+                    list_user.Add(new Infor_user(reader.GetInt32(0), reader.GetString(1), reader.GetString(2), reader.GetString(3), reader.GetDateTime(4), reader.GetString(5), reader.GetString(6), reader.GetString(7)));
+                }
+                cn.Close();
             }
-            cn.Close();
             return ls;
         }
 

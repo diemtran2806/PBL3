@@ -24,6 +24,8 @@ namespace PBL_3
         public string Position { get { return _position; } set { _position = value; } }
         private DateTime _birthday;
         public DateTime Birthday { get { return _birthday; } set { _birthday = value; } }
+        private string _email;
+        public string Email { get { return _email; } set { _email = value; } }
 
         public Infor_user(int id, string us, string pw, string name, DateTime bd, string ad, string pn, string po)
         {

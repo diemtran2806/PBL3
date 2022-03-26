@@ -41,7 +41,9 @@ namespace PBL_3
                 {
                    // MessageBox.Show("Login successed!");
                     MainForm mf = new MainForm();
-                    mf.Show();
+                    this.Hide();
+                    mf.ShowDialog();
+                    this.Close();
                 } else
                 {
                     MessageBox.Show("Login failed!");
@@ -64,6 +66,12 @@ namespace PBL_3
             if (cb1.Checked) txtPassword.UseSystemPasswordChar = false;
             else txtPassword.UseSystemPasswordChar = true;
             txtPassword.PasswordChar = '\0';
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            ResetPassword reset = new ResetPassword();
+            reset.ShowDialog();
         }
     }
 }

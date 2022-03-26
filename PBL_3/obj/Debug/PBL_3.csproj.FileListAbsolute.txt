@@ -26,3 +26,10 @@ D:\code\PBL3\PBL_3\obj\Debug\PBL_3.csproj.CoreCompileInputs.cache
 D:\code\PBL3\PBL_3\obj\Debug\PBL_3.csproj.CopyComplete
 D:\code\PBL3\PBL_3\obj\Debug\PBL_3.exe
 D:\code\PBL3\PBL_3\obj\Debug\PBL_3.pdb
+D:\code\PBL3\PBL_3\obj\Debug\PBL_3.ResetPassword.resources
+D:\code\PBL3\PBL_3\bin\Debug\ARSoft.Tools.Net.dll
+D:\code\PBL3\PBL_3\bin\Debug\BouncyCastle.Crypto.dll
+D:\code\PBL3\PBL_3\bin\Debug\EmailValidation.dll
+D:\code\PBL3\PBL_3\bin\Debug\ARSoft.Tools.Net.xml
+D:\code\PBL3\PBL_3\bin\Debug\BouncyCastle.Crypto.pdb
+D:\code\PBL3\PBL_3\obj\Debug\PBL_3.NewPassword.resources
