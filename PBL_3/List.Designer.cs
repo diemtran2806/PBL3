@@ -28,11 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.guna2TabControl3 = new Guna.UI2.WinForms.Guna2TabControl();
@@ -60,93 +56,52 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.guna2TabControl2 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
+            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.guna2TabControl3.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.guna2TabControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.Image = global::PBL_3.Properties.Resources._276998357_388347072760373_5672047703218817510_n;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(-3, 560);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(1087, 58);
-            this.guna2PictureBox2.TabIndex = 1;
-            this.guna2PictureBox2.TabStop = false;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = global::PBL_3.Properties.Resources._276998357_388347072760373_5672047703218817510_n;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(-1, 0);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(1085, 58);
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox4.Image = global::PBL_3.Properties.Resources._275948273_525323812495076_7965306195687253014_n;
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(9, 560);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(49, 46);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox4.TabIndex = 6;
-            this.guna2PictureBox4.TabStop = false;
-            this.guna2PictureBox4.UseTransparentBackground = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Klavika Bd", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label1.Location = new System.Drawing.Point(65, 574);
+            this.label1.Location = new System.Drawing.Point(98, 883);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 21);
+            this.label1.Size = new System.Drawing.Size(65, 33);
             this.label1.TabIndex = 7;
             this.label1.Text = "List";
-            // 
-            // guna2PictureBox5
-            // 
-            this.guna2PictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox5.Image = global::PBL_3.Properties.Resources._276086445_1118750095637914_1255587361718343701_n__1_;
-            this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(855, 567);
-            this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(221, 37);
-            this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox5.TabIndex = 8;
-            this.guna2PictureBox5.TabStop = false;
-            this.guna2PictureBox5.UseTransparentBackground = true;
             // 
             // guna2TabControl1
             // 
@@ -154,10 +109,11 @@
             this.guna2TabControl1.Controls.Add(this.tabPage2);
             this.guna2TabControl1.Controls.Add(this.tabPage3);
             this.guna2TabControl1.ItemSize = new System.Drawing.Size(180, 40);
-            this.guna2TabControl1.Location = new System.Drawing.Point(-1, 0);
+            this.guna2TabControl1.Location = new System.Drawing.Point(-2, 0);
+            this.guna2TabControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TabControl1.Name = "guna2TabControl1";
             this.guna2TabControl1.SelectedIndex = 0;
-            this.guna2TabControl1.Size = new System.Drawing.Size(1085, 554);
+            this.guna2TabControl1.Size = new System.Drawing.Size(1628, 852);
             this.guna2TabControl1.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.guna2TabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
             this.guna2TabControl1.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
@@ -183,9 +139,10 @@
             this.tabPage1.Controls.Add(this.guna2TabControl3);
             this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 44);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1077, 506);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage1.Size = new System.Drawing.Size(1620, 804);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Manage Information";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -199,9 +156,10 @@
             this.guna2TabControl3.Controls.Add(this.tabPage9);
             this.guna2TabControl3.ItemSize = new System.Drawing.Size(180, 40);
             this.guna2TabControl3.Location = new System.Drawing.Point(0, 0);
+            this.guna2TabControl3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TabControl3.Name = "guna2TabControl3";
             this.guna2TabControl3.SelectedIndex = 0;
-            this.guna2TabControl3.Size = new System.Drawing.Size(1081, 510);
+            this.guna2TabControl3.Size = new System.Drawing.Size(1622, 785);
             this.guna2TabControl3.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.guna2TabControl3.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
             this.guna2TabControl3.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
@@ -232,9 +190,10 @@
             this.tabPage6.Controls.Add(this.guna2Button1);
             this.tabPage6.Controls.Add(this.guna2PictureBox3);
             this.tabPage6.Location = new System.Drawing.Point(184, 4);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(893, 502);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage6.Size = new System.Drawing.Size(1434, 777);
             this.tabPage6.TabIndex = 0;
             this.tabPage6.Text = "Manage Employee";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -261,9 +220,10 @@
             this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
             this.guna2GroupBox1.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.White;
-            this.guna2GroupBox1.Location = new System.Drawing.Point(21, 272);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(32, 418);
+            this.guna2GroupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.Size = new System.Drawing.Size(849, 167);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(1274, 257);
             this.guna2GroupBox1.TabIndex = 8;
             this.guna2GroupBox1.Text = "Information";
             // 
@@ -273,11 +233,12 @@
             this.txtBirthday.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(190)))));
             this.txtBirthday.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtBirthday.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.txtBirthday.Location = new System.Drawing.Point(211, 127);
+            this.txtBirthday.Location = new System.Drawing.Point(316, 195);
+            this.txtBirthday.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBirthday.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.txtBirthday.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.txtBirthday.Name = "txtBirthday";
-            this.txtBirthday.Size = new System.Drawing.Size(169, 27);
+            this.txtBirthday.Size = new System.Drawing.Size(254, 42);
             this.txtBirthday.TabIndex = 15;
             this.txtBirthday.Value = new System.DateTime(2022, 3, 27, 10, 26, 13, 575);
             // 
@@ -292,12 +253,13 @@
             this.txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEmail.Location = new System.Drawing.Point(667, 127);
+            this.txtEmail.Location = new System.Drawing.Point(1000, 195);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
             this.txtEmail.PlaceholderText = "";
             this.txtEmail.SelectedText = "";
-            this.txtEmail.Size = new System.Drawing.Size(163, 27);
+            this.txtEmail.Size = new System.Drawing.Size(244, 42);
             this.txtEmail.TabIndex = 14;
             // 
             // txtRole
@@ -311,12 +273,13 @@
             this.txtRole.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtRole.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtRole.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRole.Location = new System.Drawing.Point(667, 63);
+            this.txtRole.Location = new System.Drawing.Point(1000, 97);
+            this.txtRole.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtRole.Name = "txtRole";
             this.txtRole.PasswordChar = '\0';
             this.txtRole.PlaceholderText = "";
             this.txtRole.SelectedText = "";
-            this.txtRole.Size = new System.Drawing.Size(163, 27);
+            this.txtRole.Size = new System.Drawing.Size(244, 42);
             this.txtRole.TabIndex = 13;
             // 
             // txtPhone
@@ -330,12 +293,13 @@
             this.txtPhone.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPhone.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPhone.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPhone.Location = new System.Drawing.Point(438, 127);
+            this.txtPhone.Location = new System.Drawing.Point(657, 195);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.PasswordChar = '\0';
             this.txtPhone.PlaceholderText = "";
             this.txtPhone.SelectedText = "";
-            this.txtPhone.Size = new System.Drawing.Size(188, 27);
+            this.txtPhone.Size = new System.Drawing.Size(282, 42);
             this.txtPhone.TabIndex = 12;
             // 
             // txtAddress
@@ -349,12 +313,13 @@
             this.txtAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAddress.Location = new System.Drawing.Point(438, 61);
+            this.txtAddress.Location = new System.Drawing.Point(657, 94);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.PasswordChar = '\0';
             this.txtAddress.PlaceholderText = "";
             this.txtAddress.SelectedText = "";
-            this.txtAddress.Size = new System.Drawing.Size(188, 27);
+            this.txtAddress.Size = new System.Drawing.Size(282, 42);
             this.txtAddress.TabIndex = 11;
             // 
             // txtName
@@ -368,12 +333,13 @@
             this.txtName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtName.Location = new System.Drawing.Point(211, 61);
+            this.txtName.Location = new System.Drawing.Point(316, 94);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtName.Name = "txtName";
             this.txtName.PasswordChar = '\0';
             this.txtName.PlaceholderText = "";
             this.txtName.SelectedText = "";
-            this.txtName.Size = new System.Drawing.Size(169, 27);
+            this.txtName.Size = new System.Drawing.Size(254, 42);
             this.txtName.TabIndex = 10;
             // 
             // txtUsername
@@ -387,12 +353,13 @@
             this.txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUsername.Location = new System.Drawing.Point(18, 127);
+            this.txtUsername.Location = new System.Drawing.Point(27, 195);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PasswordChar = '\0';
             this.txtUsername.PlaceholderText = "";
             this.txtUsername.SelectedText = "";
-            this.txtUsername.Size = new System.Drawing.Size(127, 27);
+            this.txtUsername.Size = new System.Drawing.Size(190, 42);
             this.txtUsername.TabIndex = 9;
             // 
             // txtID
@@ -406,21 +373,23 @@
             this.txtID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtID.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtID.Location = new System.Drawing.Point(18, 61);
+            this.txtID.Location = new System.Drawing.Point(27, 94);
+            this.txtID.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtID.Name = "txtID";
             this.txtID.PasswordChar = '\0';
             this.txtID.PlaceholderText = "";
             this.txtID.SelectedText = "";
-            this.txtID.Size = new System.Drawing.Size(127, 27);
+            this.txtID.Size = new System.Drawing.Size(190, 42);
             this.txtID.TabIndex = 8;
             // 
             // lbEmail
             // 
             this.lbEmail.AutoSize = true;
             this.lbEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
-            this.lbEmail.Location = new System.Drawing.Point(664, 102);
+            this.lbEmail.Location = new System.Drawing.Point(996, 157);
+            this.lbEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbEmail.Name = "lbEmail";
-            this.lbEmail.Size = new System.Drawing.Size(42, 18);
+            this.lbEmail.Size = new System.Drawing.Size(65, 28);
             this.lbEmail.TabIndex = 7;
             this.lbEmail.Text = "Email";
             // 
@@ -428,9 +397,10 @@
             // 
             this.lbRole.AutoSize = true;
             this.lbRole.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
-            this.lbRole.Location = new System.Drawing.Point(664, 42);
+            this.lbRole.Location = new System.Drawing.Point(996, 65);
+            this.lbRole.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbRole.Name = "lbRole";
-            this.lbRole.Size = new System.Drawing.Size(36, 18);
+            this.lbRole.Size = new System.Drawing.Size(55, 28);
             this.lbRole.TabIndex = 6;
             this.lbRole.Text = "Role";
             this.lbRole.Click += new System.EventHandler(this.lbRole_Click);
@@ -439,9 +409,10 @@
             // 
             this.lbPhoneNumber.AutoSize = true;
             this.lbPhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
-            this.lbPhoneNumber.Location = new System.Drawing.Point(435, 102);
+            this.lbPhoneNumber.Location = new System.Drawing.Point(652, 157);
+            this.lbPhoneNumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbPhoneNumber.Name = "lbPhoneNumber";
-            this.lbPhoneNumber.Size = new System.Drawing.Size(102, 18);
+            this.lbPhoneNumber.Size = new System.Drawing.Size(155, 28);
             this.lbPhoneNumber.TabIndex = 5;
             this.lbPhoneNumber.Text = "Phone Number";
             // 
@@ -449,9 +420,10 @@
             // 
             this.lbAddress.AutoSize = true;
             this.lbAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
-            this.lbAddress.Location = new System.Drawing.Point(435, 40);
+            this.lbAddress.Location = new System.Drawing.Point(652, 62);
+            this.lbAddress.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbAddress.Name = "lbAddress";
-            this.lbAddress.Size = new System.Drawing.Size(58, 18);
+            this.lbAddress.Size = new System.Drawing.Size(88, 28);
             this.lbAddress.TabIndex = 4;
             this.lbAddress.Text = "Address";
             // 
@@ -459,9 +431,10 @@
             // 
             this.lbBirthday.AutoSize = true;
             this.lbBirthday.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
-            this.lbBirthday.Location = new System.Drawing.Point(208, 102);
+            this.lbBirthday.Location = new System.Drawing.Point(312, 157);
+            this.lbBirthday.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbBirthday.Name = "lbBirthday";
-            this.lbBirthday.Size = new System.Drawing.Size(60, 18);
+            this.lbBirthday.Size = new System.Drawing.Size(93, 28);
             this.lbBirthday.TabIndex = 3;
             this.lbBirthday.Text = "Birthday";
             // 
@@ -469,9 +442,10 @@
             // 
             this.lbName.AutoSize = true;
             this.lbName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
-            this.lbName.Location = new System.Drawing.Point(208, 40);
+            this.lbName.Location = new System.Drawing.Point(312, 62);
+            this.lbName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(45, 18);
+            this.lbName.Size = new System.Drawing.Size(69, 28);
             this.lbName.TabIndex = 2;
             this.lbName.Text = "Name";
             // 
@@ -479,9 +453,10 @@
             // 
             this.lbUsername.AutoSize = true;
             this.lbUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
-            this.lbUsername.Location = new System.Drawing.Point(15, 96);
+            this.lbUsername.Location = new System.Drawing.Point(22, 157);
+            this.lbUsername.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbUsername.Name = "lbUsername";
-            this.lbUsername.Size = new System.Drawing.Size(72, 18);
+            this.lbUsername.Size = new System.Drawing.Size(110, 28);
             this.lbUsername.TabIndex = 1;
             this.lbUsername.Text = "Username";
             // 
@@ -489,9 +464,10 @@
             // 
             this.lbID.AutoSize = true;
             this.lbID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
-            this.lbID.Location = new System.Drawing.Point(19, 40);
+            this.lbID.Location = new System.Drawing.Point(22, 61);
+            this.lbID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbID.Name = "lbID";
-            this.lbID.Size = new System.Drawing.Size(21, 18);
+            this.lbID.Size = new System.Drawing.Size(33, 28);
             this.lbID.TabIndex = 0;
             this.lbID.Text = "ID";
             // 
@@ -499,16 +475,18 @@
             // 
             this.dgv1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv1.Location = new System.Drawing.Point(21, 14);
+            this.dgv1.Location = new System.Drawing.Point(32, 22);
+            this.dgv1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgv1.Name = "dgv1";
-            this.dgv1.Size = new System.Drawing.Size(849, 240);
+            this.dgv1.RowHeadersWidth = 62;
+            this.dgv1.Size = new System.Drawing.Size(1274, 369);
             this.dgv1.TabIndex = 7;
             this.dgv1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv1_CellContentClick);
             // 
             // guna2Button5
             // 
             this.guna2Button5.AutoRoundedCorners = true;
-            this.guna2Button5.BorderRadius = 16;
+            this.guna2Button5.BorderRadius = 26;
             this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -516,9 +494,10 @@
             this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
             this.guna2Button5.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(213, 458);
+            this.guna2Button5.Location = new System.Drawing.Point(320, 705);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(107, 35);
+            this.guna2Button5.Size = new System.Drawing.Size(160, 54);
             this.guna2Button5.TabIndex = 6;
             this.guna2Button5.Text = "Show";
             this.guna2Button5.UseTransparentBackground = true;
@@ -527,7 +506,7 @@
             // guna2Button4
             // 
             this.guna2Button4.AutoRoundedCorners = true;
-            this.guna2Button4.BorderRadius = 16;
+            this.guna2Button4.BorderRadius = 26;
             this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -535,9 +514,10 @@
             this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
             this.guna2Button4.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(763, 458);
+            this.guna2Button4.Location = new System.Drawing.Point(1144, 705);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(107, 35);
+            this.guna2Button4.Size = new System.Drawing.Size(160, 54);
             this.guna2Button4.TabIndex = 5;
             this.guna2Button4.Text = "Delete";
             this.guna2Button4.UseTransparentBackground = true;
@@ -546,7 +526,7 @@
             // guna2Button3
             // 
             this.guna2Button3.AutoRoundedCorners = true;
-            this.guna2Button3.BorderRadius = 16;
+            this.guna2Button3.BorderRadius = 26;
             this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -554,9 +534,10 @@
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
             this.guna2Button3.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(598, 458);
+            this.guna2Button3.Location = new System.Drawing.Point(897, 705);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(107, 35);
+            this.guna2Button3.Size = new System.Drawing.Size(160, 54);
             this.guna2Button3.TabIndex = 4;
             this.guna2Button3.Text = "Update";
             this.guna2Button3.UseTransparentBackground = true;
@@ -565,7 +546,7 @@
             // guna2Button2
             // 
             this.guna2Button2.AutoRoundedCorners = true;
-            this.guna2Button2.BorderRadius = 16;
+            this.guna2Button2.BorderRadius = 26;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -573,9 +554,10 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
             this.guna2Button2.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(412, 458);
+            this.guna2Button2.Location = new System.Drawing.Point(618, 705);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(107, 35);
+            this.guna2Button2.Size = new System.Drawing.Size(160, 54);
             this.guna2Button2.TabIndex = 3;
             this.guna2Button2.Text = "Add";
             this.guna2Button2.UseTransparentBackground = true;
@@ -584,7 +566,7 @@
             // guna2Button1
             // 
             this.guna2Button1.AutoRoundedCorners = true;
-            this.guna2Button1.BorderRadius = 16;
+            this.guna2Button1.BorderRadius = 26;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -592,31 +574,22 @@
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
             this.guna2Button1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(21, 458);
+            this.guna2Button1.Location = new System.Drawing.Point(32, 705);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(107, 35);
+            this.guna2Button1.Size = new System.Drawing.Size(160, 54);
             this.guna2Button1.TabIndex = 2;
             this.guna2Button1.Text = "Back";
             this.guna2Button1.UseTransparentBackground = true;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.Image = global::PBL_3.Properties.Resources._277293806_1451411541982748_8799551172936554219_n;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(0, -1);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(893, 507);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox3.TabIndex = 0;
-            this.guna2PictureBox3.TabStop = false;
-            // 
             // tabPage7
             // 
             this.tabPage7.Location = new System.Drawing.Point(184, 4);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(893, 502);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage7.Size = new System.Drawing.Size(1434, 777);
             this.tabPage7.TabIndex = 1;
             this.tabPage7.Text = "Manage Product";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -624,9 +597,10 @@
             // tabPage8
             // 
             this.tabPage8.Location = new System.Drawing.Point(184, 4);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(893, 502);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage8.Size = new System.Drawing.Size(1434, 777);
             this.tabPage8.TabIndex = 2;
             this.tabPage8.Text = "Manage Customer";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -634,52 +608,35 @@
             // tabPage9
             // 
             this.tabPage9.Location = new System.Drawing.Point(184, 4);
+            this.tabPage9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(893, 502);
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage9.Size = new System.Drawing.Size(1434, 777);
             this.tabPage9.TabIndex = 3;
             this.tabPage9.Text = "Manage Supply";
             this.tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PBL_3.Properties.Resources._277293806_1451411541982748_8799551172936554219_n;
-            this.pictureBox1.Location = new System.Drawing.Point(-4, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1085, 510);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.pictureBox2);
             this.tabPage2.Location = new System.Drawing.Point(4, 44);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1077, 506);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage2.Size = new System.Drawing.Size(1620, 804);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Import Product";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::PBL_3.Properties.Resources._277293806_1451411541982748_8799551172936554219_n;
-            this.pictureBox2.Location = new System.Drawing.Point(-5, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1086, 510);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.guna2TabControl2);
             this.tabPage3.Controls.Add(this.pictureBox3);
             this.tabPage3.Location = new System.Drawing.Point(4, 44);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1077, 506);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage3.Size = new System.Drawing.Size(1620, 804);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Sell Products";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -690,10 +647,11 @@
             this.guna2TabControl2.Controls.Add(this.tabPage4);
             this.guna2TabControl2.Controls.Add(this.tabPage5);
             this.guna2TabControl2.ItemSize = new System.Drawing.Size(180, 40);
-            this.guna2TabControl2.Location = new System.Drawing.Point(3, 0);
+            this.guna2TabControl2.Location = new System.Drawing.Point(4, 0);
+            this.guna2TabControl2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TabControl2.Name = "guna2TabControl2";
             this.guna2TabControl2.SelectedIndex = 0;
-            this.guna2TabControl2.Size = new System.Drawing.Size(1078, 510);
+            this.guna2TabControl2.Size = new System.Drawing.Size(1617, 785);
             this.guna2TabControl2.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.guna2TabControl2.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
             this.guna2TabControl2.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
@@ -716,9 +674,10 @@
             // tabPage4
             // 
             this.tabPage4.Location = new System.Drawing.Point(184, 4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(890, 502);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage4.Size = new System.Drawing.Size(1429, 777);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -726,28 +685,115 @@
             // tabPage5
             // 
             this.tabPage5.Location = new System.Drawing.Point(184, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(890, 502);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage5.Size = new System.Drawing.Size(1429, 777);
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox4.Image = global::PBL_3.Properties.Resources._275948273_525323812495076_7965306195687253014_n;
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(14, 862);
+            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(74, 71);
+            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox4.TabIndex = 6;
+            this.guna2PictureBox4.TabStop = false;
+            this.guna2PictureBox4.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.Image = global::PBL_3.Properties.Resources._277293806_1451411541982748_8799551172936554219_n;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(0, -2);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(1340, 780);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox3.TabIndex = 0;
+            this.guna2PictureBox3.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PBL_3.Properties.Resources._277293806_1451411541982748_8799551172936554219_n;
+            this.pictureBox1.Location = new System.Drawing.Point(-6, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1628, 785);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::PBL_3.Properties.Resources._277293806_1451411541982748_8799551172936554219_n;
+            this.pictureBox2.Location = new System.Drawing.Point(-8, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1629, 785);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::PBL_3.Properties.Resources._277293806_1451411541982748_8799551172936554219_n;
-            this.pictureBox3.Location = new System.Drawing.Point(-4, 0);
+            this.pictureBox3.Location = new System.Drawing.Point(-6, 0);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1085, 510);
+            this.pictureBox3.Size = new System.Drawing.Size(1628, 785);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
+            // guna2PictureBox5
+            // 
+            this.guna2PictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox5.Image = global::PBL_3.Properties.Resources._276086445_1118750095637914_1255587361718343701_n__1_;
+            this.guna2PictureBox5.ImageRotate = 0F;
+            this.guna2PictureBox5.Location = new System.Drawing.Point(1282, 872);
+            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2PictureBox5.Name = "guna2PictureBox5";
+            this.guna2PictureBox5.Size = new System.Drawing.Size(332, 57);
+            this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox5.TabIndex = 8;
+            this.guna2PictureBox5.TabStop = false;
+            this.guna2PictureBox5.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = global::PBL_3.Properties.Resources._276998357_388347072760373_5672047703218817510_n;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(-4, 862);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(1630, 89);
+            this.guna2PictureBox2.TabIndex = 1;
+            this.guna2PictureBox2.TabStop = false;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = global::PBL_3.Properties.Resources._276998357_388347072760373_5672047703218817510_n;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(-2, 0);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(1628, 89);
+            this.guna2PictureBox1.TabIndex = 0;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // List
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1084, 611);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1613, 945);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2PictureBox4);
             this.Controls.Add(this.guna2TabControl1);
@@ -755,12 +801,9 @@
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "List";
             this.Text = "List";
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             this.guna2TabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.guna2TabControl3.ResumeLayout(false);
@@ -768,13 +811,17 @@
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.guna2TabControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

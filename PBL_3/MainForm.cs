@@ -21,10 +21,7 @@ namespace PBL_3
             mName = new MyDelName(show);
             //show();
         }
-        //public void load_data(string str)
-        //{
-        //    txtNameNV.Text = str;
-        //}
+
         public void show(string s)
         {
             txtNameNV.Text = s;
@@ -34,6 +31,7 @@ namespace PBL_3
         {
             List l = new List();
             this.Hide();
+            l.rs = txtNameNV.Text;
             l.ShowDialog();
             //this.Close();
             

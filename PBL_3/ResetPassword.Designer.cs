@@ -157,8 +157,7 @@
             // 
             // ResetPassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(536, 415);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.tbCode);
