@@ -57,10 +57,10 @@ namespace DAL
             DataProvider.Instance.ExcuteDB(query);
         }
 
-        public DataTable GetAccountsByName(string name)
+        public DataTable GetAccountsByOption(string name,string option)
         {
             DataTable accountsList = new DataTable();
-            string query = $"select * from Inf_user where Name like N'%{name}%'";
+            string query = $"select ID,US,Name,Birthday,Adress,PhoneNumber,Position,Email from Inf_user where {option} like N'%{name}%'";
             accountsList = DataProvider.Instance.GetRecords(query);
             return accountsList;
         }

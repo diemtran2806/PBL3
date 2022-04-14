@@ -13,8 +13,6 @@ F:\PBL3\DTO\bin\Debug\ARSoft.Tools.Net.xml
 F:\PBL3\DTO\bin\Debug\BouncyCastle.Crypto.pdb
 C:\Users\lvdle\source\repos\PBL3\DTO\bin\Debug\DTO.dll
 C:\Users\lvdle\source\repos\PBL3\DTO\bin\Debug\DTO.pdb
-C:\Users\lvdle\source\repos\PBL3\DTO\bin\Debug\ARSoft.Tools.Net.dll
-C:\Users\lvdle\source\repos\PBL3\DTO\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\lvdle\source\repos\PBL3\DTO\bin\Debug\EmailValidation.dll
 C:\Users\lvdle\source\repos\PBL3\DTO\bin\Debug\Guna.UI2.dll
 C:\Users\lvdle\source\repos\PBL3\DTO\bin\Debug\ARSoft.Tools.Net.xml

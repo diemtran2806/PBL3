@@ -32,9 +32,7 @@ F:\PBL3\GUI\obj\Debug\GUI.ResetPassword.resources
 F:\PBL3\GUI\obj\Debug\GUI.AddAccount.resources
 C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\GUI.exe
 C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\GUI.pdb
-C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\ARSoft.Tools.Net.dll
 C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\BLL.dll
-C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\DTO.dll
 C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\EmailValidation.dll
 C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\Guna.UI2.dll

@@ -50,9 +50,9 @@ namespace BLL
             //return accounts;
         }
 
-        public DataTable getAccountByName(string name)
+        public DataTable getAccountByOption(string name, string option)
         {
-            return AccountAccess.Instance.GetAccountsByName(name);
+            return AccountAccess.Instance.GetAccountsByOption(name,option);
         }
         public void ExcuteDB(Account account, string id = null) //update, delete
         {
