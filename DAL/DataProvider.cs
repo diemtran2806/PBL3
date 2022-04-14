@@ -28,7 +28,7 @@ namespace DAL
         private DataProvider() { }
         public static SqlConnection getSqlConnection()
         {
-            string stringConnection = @"Data Source=DESKTOP-K9NDIH8;Initial Catalog=Information;Integrated Security=True";
+            string stringConnection = @"Data Source=DESKTOP-2ID676D\SQLEXPRESS;Initial Catalog=sqlTable_Inf_user;Integrated Security=True";
             SqlConnection conn = new SqlConnection(stringConnection);
             return conn;
         }

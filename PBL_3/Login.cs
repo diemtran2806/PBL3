@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Security.Cryptography;
 
 namespace PBL_3
 {
@@ -28,7 +29,17 @@ namespace PBL_3
         {
             string user = txtUsername.Text;
             string password = txtPassword.Text;
-            if(user.Trim() == "") MessageBox.Show("Please fill in username information!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //hashing
+            byte[] passByte = ASCIIEncoding.ASCII.GetBytes(password); //chuyển s string về dạng byte
+            byte[] hashPassByte = new MD5CryptoServiceProvider().ComputeHash(passByte);//Hash
+            string hashPassStr = "";
+            foreach (byte item in hashPassByte)
+            {
+                hashPassStr += item;
+            }
+            password = hashPassStr;
+            txtPassword.Text = password;
+            if (user.Trim() == "") MessageBox.Show("Please fill in username information!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
             else if (password.Trim() == "") MessageBox.Show("Please fill in password information!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
             else
             {
