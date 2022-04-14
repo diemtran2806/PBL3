@@ -56,6 +56,14 @@ namespace DAL
             string query = "update Inf_user set US = '" + account.US + "', Name = N'" + account.Name + "', Birthday = '" + account.Birthday + "', Adress = N'" + account.Adress + "', PhoneNumber = '" + account.PhoneNumber + "', Email = '" + account.Email + "' where ID = '" + account.ID + "'";
             DataProvider.Instance.ExcuteDB(query);
         }
+
+        public DataTable GetAccountsByName(string name)
+        {
+            DataTable accountsList = new DataTable();
+            string query = $"select * from Inf_user where Name like N'%{name}%'";
+            accountsList = DataProvider.Instance.GetRecords(query);
+            return accountsList;
+        }
         public void updatePassword(string password)
         {
             string query = "update Inf_user set PW = '" + password + "'";

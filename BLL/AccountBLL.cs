@@ -49,6 +49,11 @@ namespace BLL
             return AccountAccess.Instance.GetRecords();
             //return accounts;
         }
+
+        public DataTable getAccountByName(string name)
+        {
+            return AccountAccess.Instance.GetAccountsByName(name);
+        }
         public void ExcuteDB(Account account, string id = null) //update, delete
         {
             if (id == null && (account.PW) != null)

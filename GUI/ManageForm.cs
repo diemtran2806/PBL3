@@ -107,5 +107,26 @@ namespace GUI
             ad.d = new AddAccount.Mydel(Show);
             ad.ShowDialog();
         }
+
+       
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        
+        private void searchUser()
+        {
+            dgv1.DataSource = AccountBLL.Instance.getAccountByName(txtSearch.Text);
+            dgv1.Columns[6].Visible = false;
+        }
+
+        private void txtSearch_TextChanged_1(object sender, EventArgs e)
+        {
+            searchUser();
+
+        }
     }
 }
