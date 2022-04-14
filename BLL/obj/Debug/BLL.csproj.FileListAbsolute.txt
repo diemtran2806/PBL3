@@ -20,7 +20,6 @@ C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\BLL.pdb
 C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\DAL.dll
 C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\DTO.dll
 C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\EmailValidation.dll
-C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\Guna.UI2.dll
 C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\DAL.pdb
 C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\DTO.pdb
 C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\ARSoft.Tools.Net.xml
