@@ -213,5 +213,6 @@ namespace GUI
             dgv1.Columns[6].Visible = false;
         }
 
+        
     }
 }
