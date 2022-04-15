@@ -25,7 +25,8 @@ namespace GUI
         {
             account.US = txtUsername.Text;
             account.PW = txtPassword.Text;
-            switch(AccountBLL.Instance.checkLogin(account))
+            txtUsername.Text = AccountBLL.Instance.checkLogin(account);
+            /*switch(AccountBLL.Instance.checkLogin(account))
             {
                 case "Please fill in username information!":
                     MessageBox.Show("Please fill in username information!");
@@ -46,8 +47,8 @@ namespace GUI
                     mf.ShowDialog();
                     this.Close();
                     break;
-            }
-            
+            }*/
+
         }
 
         private void cb1_CheckedChanged(object sender, EventArgs e)

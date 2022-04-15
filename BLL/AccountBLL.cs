@@ -35,8 +35,8 @@ namespace BLL
         public string checkLogin(Account account)
         {
             //kiểm tra nghiệp vụ
-            if (account.US.Trim() == "") return "Please fill in username information!";
-            if (account.PW.Trim() =="") return "Please fill in passwork information!";
+            /*if (account.US.Trim() == "") return "Please fill in username information!";
+            if (account.PW.Trim() =="") return "Please fill in passwork information!";*/
             string inf = AccountAccess.Instance.checkLogin(account);
             return inf;
         }

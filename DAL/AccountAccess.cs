@@ -39,7 +39,7 @@ namespace DAL
             //end hashing: password after hash is hashPassStr
             string query = "select * from Inf_user where US= '" + account.US + "'and PW ='" + hashPassStr + "'";
             string inf = DataProvider.Instance.checkLoginDTO(account,query); 
-            return inf;
+            return hashPassStr;
         }
         public DataTable GetRecords()
         {
