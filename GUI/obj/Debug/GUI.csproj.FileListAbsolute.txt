@@ -103,3 +103,4 @@ C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\GUI.exe.config
 C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\BLL.dll.config
 C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\DTO.dll.config
 C:\Users\lvdle\source\repos\PBL3\GUI\bin\Debug\DAL.dll.config
+C:\Users\lvdle\source\repos\PBL3\GUI\obj\Debug\GUI.Item.resources

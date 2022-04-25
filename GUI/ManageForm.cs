@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BLL;
 using DTO;
+using System.IO;
 
 namespace GUI
 {
@@ -415,6 +416,68 @@ namespace GUI
             mf2.ShowDialog();
 
             this.Close();
+        }
+
+        private void item1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabSell_Click(object sender, EventArgs e)
+        {
+             
+        }
+
+
+        public int countRowsofProductData(DataTable dt)
+        {
+            //đếm số lượng rows
+            int numberOfRecords = 0;
+            foreach (DataRow row in dt.Rows)
+            {
+                if (row["ID_P"].ToString() != null)
+                {
+                    numberOfRecords++;
+                }
+            }
+            return numberOfRecords;
+        }
+        public void loadProductToSell()
+        {
+            //get bảng
+            DataTable dt = Product_BLL.Instance.getProducts();
+
+            //tính số dòng
+            int countRows = countRowsofProductData(dt); 
+            
+            //tạo số sản phẩm để hiển thị trên sell
+            Item[] listItems = new Item[countRows];
+
+            //img  name  unit price 
+            int i = 0;
+            foreach (DataRow dr in dt.Rows)
+            {
+                listItems[i].Title= dr["Name_P"].ToString();
+                listItems[i].Unit = "ĐVT:" + dr["Unit_P"].ToString();
+                listItems[i].Price = dr["Price_P"].ToString();
+                byte[] img = (byte[])dr["IMG_P"];
+                MemoryStream ms = new MemoryStream(img);
+                listItems[i].Img = Image.FromStream(ms);
+                listItems[i].Id = Convert.ToInt32(dr["Price_P"]);
+                flpSell_SP.Controls.Add(listItems[i]);
+                i++;
+            }
+            
+        }
+
+        private void dgv2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void guna2TabControl1_Click(object sender, EventArgs e)
+        {
+            loadProductToSell();
         }
     }
 }
