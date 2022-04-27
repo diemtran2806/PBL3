@@ -28,4 +28,7 @@ PBL_3/Connection.cs
 *.pdb
 *.cache
 PBL_3/obj/Debug/PBL_3.csproj.FileListAbsolute.txt
+GUI/obj/Debug/GUI.csproj.FileListAbsolute.txt
+DAL/obj/Debug/DAL.csproj.FileListAbsolute.txt
+BLL/obj/Debug/BLL.csproj.FileListAbsolute.txt
 .vs/
