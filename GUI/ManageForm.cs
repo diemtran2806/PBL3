@@ -357,25 +357,15 @@ namespace GUI
             cbSearchProduct.Items.Add("ID");
             cbSearchProduct.Items.Add("Name product");
         }
-        private void searchProduct(string option)
+        private void searchProduct(string strSearch)
         {
-            switch (option)
-            {
-                case "ID":
-                    option = "ID_P";
-                    break;
-                case "Name product":
-                    option = "Name_P";
-                    break;
-                default:
-                    break;
-            }
-            dgv2.DataSource = Product_BLL.Instance.getProductsByOption(getCurrenGroupName(), txtSearchProduct.Text, option);
+
+            dgv2.DataSource = Product_BLL.Instance.GetProductLikeString(strSearch);
         }
 
         private void txtSearchProduct_TextChanged(object sender, EventArgs e)
         {
-            searchProduct(cbSearchProduct.Text);
+            searchProduct(txtSearchProduct.Text);
         }
 
         private void dgv2_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -415,6 +405,11 @@ namespace GUI
             mf2.ShowDialog();
 
             this.Close();
+        }
+
+        private void ManageForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

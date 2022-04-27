@@ -69,6 +69,14 @@ namespace DAL
             return productList;
         }
 
+
+        public DataTable GetProductLikeString(string strSearch)
+        {
+            DataTable productList = new DataTable();
+            string query = $"SELECT * FROM Products WHERE ID_P LIKE '%{strSearch}%' OR Name_P like N'%{strSearch}%'";
+            productList = DataProvider.Instance.GetRecords(query);
+            return productList;
+        }
         public void addProduct(Product product)
         {
             /*string query = "insert into Products(ID_PG,Name_P,Unit_P,Price_P,VAT) " + "values (" +

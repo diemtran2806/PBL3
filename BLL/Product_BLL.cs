@@ -43,6 +43,11 @@ namespace BLL
             return Product_DAL.Instance.getProductsByOption(groupName, name, option);
         }
 
+        public DataTable  GetProductLikeString(string strSearch)
+        {
+            return Product_DAL.Instance.GetProductLikeString(strSearch);
+        }
+
 
         
         public void ExcuteDB(Product product, string id_product = null) //update, delete, add
