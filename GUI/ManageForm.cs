@@ -22,7 +22,6 @@ namespace GUI
             addCbSearch();
             //catalories
             setCBProductsGroups();
-            addCbSearchProduct();
         }
         private void Reset()
         {
@@ -352,11 +351,7 @@ namespace GUI
 
 
         //search
-        public void addCbSearchProduct()
-        {
-            cbSearchProduct.Items.Add("ID");
-            cbSearchProduct.Items.Add("Name product");
-        }
+        
         private void searchProduct(string strSearch)
         {
 
@@ -408,6 +403,16 @@ namespace GUI
         }
 
         private void ManageForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgv2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

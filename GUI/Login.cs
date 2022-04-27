@@ -62,5 +62,10 @@ namespace GUI
             ResetPassword rs = new ResetPassword();
             rs.ShowDialog();
         }
+
+        private void Login_Enter(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

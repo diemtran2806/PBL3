@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using BLL;
 using DTO;
 using System.IO;
+using System.Drawing.Imaging;
+
 namespace GUI
 {
     public partial class ProductDetails : Form
@@ -100,6 +102,7 @@ namespace GUI
                 txtVATInclusive_PD.Enabled = false;
                 txtPrice_PD.Enabled = false;
                 txtVAT_PD.Enabled = false;
+                //load image
                 byte[] img = (byte[])dr["IMG_P"];
                 MemoryStream ms = new MemoryStream(img);
                 img_PD.Image = Image.FromStream(ms);
@@ -162,8 +165,35 @@ namespace GUI
         //chuyển đổi ảnh
         public byte[] ImgToByteArray(Image img)
         {
+
+           
+
+
             MemoryStream ms = new MemoryStream();
-            img.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
+            try
+            {
+                img.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
+            }
+            catch (Exception e)
+            {
+
+                try
+                {
+                    img.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
+                }
+                catch (Exception)
+                {
+                    try
+                    {
+                        img.Save(ms, System.Drawing.Imaging.ImageFormat.Gif);
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show("Png,Jpeg,Gif còn lại thì chịu :(((");
+                    }
+                }
+            }
+
             return ms.ToArray();
         }
         public byte[] PathToByteArray(string path)
@@ -192,8 +222,8 @@ namespace GUI
                 {
                     Name_P = txtName_PD.Text,
                     Unit_P = txtUnit_PD.Text,
-                    Price_P = txtPrice_PD.Text,
-                    VAT = txtVAT_PD.Text,
+                    Price_P = Convert.ToInt64(txtPrice_PD.Text),
+                    VAT = Convert.ToInt64(txtVAT_PD.Text),
                     ID_PG = getIDByGroupName(cbCatagories_PD.Text),
                     IMG_P = ImgToByteArray(img_PD.Image),
                     //ok
@@ -222,7 +252,7 @@ namespace GUI
         private void btnChangeImg_PD_Click(object sender, EventArgs e)
         {
             OpenFileDialog dialog = new OpenFileDialog();
-            dialog.Filter = "png files(*png)|*.png|jpg file (*jpg)|*.jpg|All file(*.*)|*.*";
+            dialog.Filter = "Image files(*png,*jpeg)|*.png|jpeg file (*jpeg)|*.jpeg|All file(*.*)|*.*";
             if (dialog.ShowDialog() == DialogResult.OK)
             {
                 imgLocation = dialog.FileName.ToString();

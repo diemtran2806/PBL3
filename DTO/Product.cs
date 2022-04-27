@@ -13,9 +13,9 @@ namespace DTO
         public string ID_PG { get; set; }
         public string Name_P { get; set; }
         public string Unit_P { get; set; }
-        public string Price_P { get; set; }
-        public string VAT { get; set; }
-        public int VATInclusive_P { get; set; }
+        public long Price_P { get; set; }
+        public long VAT { get; set; }
+        public Decimal VATInclusive_P { get; set; }
         public byte[] IMG_P { get; set; }
     }
 }

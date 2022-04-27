@@ -1,0 +1,1 @@
+﻿SELECT * FROM Products WHERE ID_P LIKE '%cải%' OR Name_P like '%bia%'
