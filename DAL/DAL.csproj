@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountAccess.cs" />
+    <Compile Include="Categories_DAL.cs" />
     <Compile Include="Connection.cs" />
     <Compile Include="Customer_DAL.cs" />
     <Compile Include="DataProvider.cs" />

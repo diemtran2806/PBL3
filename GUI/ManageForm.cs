@@ -675,6 +675,11 @@ namespace GUI
             importHistory.ShowDialog();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         public double totalAll()
         {
             double totalall = 0;
@@ -686,6 +691,18 @@ namespace GUI
 
             }
             return totalall;
+        }
+
+        
+
+        //manage product group
+        private void ShowAllGroup()
+        {
+            dgv5.DataSource = Categories_BLL.Instance.getGroups();
+        }
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            ShowAllGroup();
         }
     }
 }
