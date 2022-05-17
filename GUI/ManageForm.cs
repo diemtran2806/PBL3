@@ -700,6 +700,23 @@ namespace GUI
         {
             dgv5.DataSource = Categories_BLL.Instance.getGroups();
         }
+
+       
+
+        private void btnAdd_G_Click(object sender, EventArgs e)
+        {
+            AddGroup addGroup = new AddGroup();
+            //deleget
+            addGroup.d = new AddGroup.Mydel(ShowAllGroup);
+            //show form
+            addGroup.Show();
+        }
+
+        private void btnDel_PG_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             ShowAllGroup();

@@ -32,5 +32,22 @@ namespace DAL
             products = DataProvider.Instance.GetRecords(query);
             return products;
         }
+
+        //ex
+        public void addCategories(Categories categories)
+        {
+            string query = $"insert into ProductGroups(Name_PG) values (N'{categories.Name_PG}')";
+            DataProvider.Instance.ExcuteDB(query);
+        }
+        public void updateCategories(Categories categories)
+        {
+            string query = $"update ProductGroups set Name_PG = N'{categories.Name_PG}' where ID_PG = {categories.ID_PG}'";
+            DataProvider.Instance.ExcuteDB(query);
+        }
+        public void deleteCategories(Categories categories)
+        {
+            string query = $"delete from ProductGroups where ID_PG = {categories.ID_PG}";
+            DataProvider.Instance.ExcuteDB(query);
+        }
     }
 }

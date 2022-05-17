@@ -29,5 +29,23 @@ namespace BLL
         {
             return Categories_DAL.Instance.GetRecords();
         }
+        public void ExcuteDB(Categories categories, string id_categories = null) //update, delete
+        {
+            if (categories.ID_PG == null)
+            {
+                Categories_DAL.Instance.updateCategories(categories);
+                return;
+            }
+            if (categories.ID_PG != null && !id_categories.Equals("Add"))
+            {
+                Categories_DAL.Instance.deleteCategories(categories);
+                return;
+            }
+            if (id_categories.Equals("Add"))
+            {
+                Categories_DAL.Instance.addCategories(categories);
+                return;
+            }
+        }
     }
 }
