@@ -47,6 +47,32 @@ namespace DAL
             accounts = DataProvider.Instance.GetRecords(query);
             return accounts;
         }
+
+        public List<Account> GetAllAccount()
+        {
+            List<Account> list = new List<Account>();
+            foreach (DataRow i in DataProvider.Instance.GetRecords("select * from Inf_user").Rows)
+            {
+                list.Add(GetAccountByDataRow(i));
+            }
+            return list;
+        }
+        public Account GetAccountByDataRow(DataRow i)
+        {
+            return new Account
+            {
+                ID = Convert.ToInt32(i["ID"].ToString()),
+                US = i["US"].ToString(),
+                PW = i["PW"].ToString(),
+                Name = i["Name"].ToString(),
+                Gender = i["Gender"].ToString(),
+                Birthday = Convert.ToDateTime(i["Birthday"].ToString()),
+                Adress = i["Adress"].ToString(),
+                PhoneNumber = i["PhoneNumber"].ToString(),
+                Position = i["Position"].ToString(),
+                Email = i["Email"].ToString()
+            };
+        }
         public DataTable GetAccountsByOption(string name, string option)
         {
             DataTable accountsList = new DataTable();

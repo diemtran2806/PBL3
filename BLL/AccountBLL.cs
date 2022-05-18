@@ -148,5 +148,16 @@ namespace BLL
             return true;
             return false;
         }
+        public Account getAccountByUS(string US)
+        {
+            foreach (Account i in AccountAccess.Instance.GetAllAccount())
+            {
+                if (US == i.US)
+                {
+                    return i;
+                }
+            }
+            return null;
+        }
     }
 }

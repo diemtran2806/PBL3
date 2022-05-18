@@ -58,6 +58,8 @@
     <Compile Include="AccountBLL.cs" />
     <Compile Include="Customer_BLL.cs" />
     <Compile Include="HashCode.cs" />
+    <Compile Include="InvoiceDetail_BLL.cs" />
+    <Compile Include="Invoice_BLL.cs" />
     <Compile Include="ProductGroups_BLL.cs" />
     <Compile Include="Product_BLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +79,9 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

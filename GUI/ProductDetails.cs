@@ -239,6 +239,7 @@ namespace GUI
         {
             saveBtn();
             d();
+            string tp = "tp" + cbCatagories_PD.SelectedItem.ToString();
             this.Close();
         }
 

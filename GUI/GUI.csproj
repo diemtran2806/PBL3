@@ -185,6 +185,10 @@
       <Project>{bca426c3-c4d7-4ad6-9ea4-3aa69c90d42a}</Project>
       <Name>PBL_3</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Product_Library\Product_Library.csproj">
+      <Project>{82258AA0-7FCD-4D73-9ADA-85914A9BEF39}</Project>
+      <Name>Product_Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\login1.png" />

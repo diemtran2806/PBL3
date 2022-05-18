@@ -37,9 +37,8 @@ namespace GUI
                     MessageBox.Show("Login Failed!");
                     break;
                 default:
-                    //MessageBox.Show("Login Successed!");
-                    MainForm mf = new MainForm();
-                    //mf.load_data(txtUsername.Text);
+                    account = AccountBLL.Instance.getAccountByUS(txtUsername.Text);
+                    MainForm mf = new MainForm(account);
                     string rs = txtUsername.Text + " / " + AccountBLL.Instance.getRole();
                     mf.mName(rs);
                     this.Hide();

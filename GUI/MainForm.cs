@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DTO;
 using BLL;
 
 
@@ -16,15 +17,13 @@ namespace GUI
     {
         public delegate void MyDelName(string s);
         public MyDelName mName;
-        public MainForm()
+        Account mAccount;
+        public MainForm(Account acc)
         {
             InitializeComponent();
             mName = new MyDelName(show);
             btnSystem.Enabled = AccountBLL.Instance.checkRole("Admin");
-        }
-        public void load_data(string str)
-        {
-            txtNameNV.Text = str;
+            mAccount = acc;
         }
         public void show(string s)
         {
@@ -33,7 +32,7 @@ namespace GUI
 
         private void btnList_Click(object sender, EventArgs e)
         {
-            ManageForm l = new ManageForm();
+            ManageForm l = new ManageForm(mAccount);
             this.Hide();
             l.rs = txtNameNV.Text;
             l.ShowDialog();

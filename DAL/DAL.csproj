@@ -57,6 +57,8 @@
     <Compile Include="Connection.cs" />
     <Compile Include="Customer_DAL.cs" />
     <Compile Include="DataProvider.cs" />
+    <Compile Include="InvoiceDetail_DAL.cs" />
+    <Compile Include="Invoice_DAL.cs" />
     <Compile Include="ProductGroups_DAL.cs" />
     <Compile Include="Product_DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -31,6 +31,10 @@ C:\Users\lvdle\Source\Repos\PBL3\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cach
 C:\Users\lvdle\Source\Repos\PBL3\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\lvdle\Source\Repos\PBL3\BLL\obj\Debug\BLL.dll
 C:\Users\lvdle\Source\Repos\PBL3\BLL\obj\Debug\BLL.pdb
+C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\BLL.dll.config
+C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\DAL.dll.config
+C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\DTO.dll.config
+D:\code\PBL3\BLL\bin\Debug\BLL.dll.config
 D:\code\PBL3\BLL\bin\Debug\BLL.dll
 D:\code\PBL3\BLL\bin\Debug\BLL.pdb
 D:\code\PBL3\BLL\bin\Debug\ARSoft.Tools.Net.dll
@@ -40,14 +44,12 @@ D:\code\PBL3\BLL\bin\Debug\DTO.dll
 D:\code\PBL3\BLL\bin\Debug\EmailValidation.dll
 D:\code\PBL3\BLL\bin\Debug\Guna.UI2.dll
 D:\code\PBL3\BLL\bin\Debug\DAL.pdb
+D:\code\PBL3\BLL\bin\Debug\DAL.dll.config
 D:\code\PBL3\BLL\bin\Debug\DTO.pdb
+D:\code\PBL3\BLL\bin\Debug\DTO.dll.config
 D:\code\PBL3\BLL\bin\Debug\ARSoft.Tools.Net.xml
-D:\code\PBL3\BLL\bin\Debug\BouncyCastle.Crypto.pdb
 D:\code\PBL3\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 D:\code\PBL3\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\code\PBL3\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\code\PBL3\BLL\obj\Debug\BLL.dll
 D:\code\PBL3\BLL\obj\Debug\BLL.pdb
-C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\BLL.dll.config
-C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\DAL.dll.config
-C:\Users\lvdle\source\repos\PBL3\BLL\bin\Debug\DTO.dll.config
