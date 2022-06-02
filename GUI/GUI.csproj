@@ -277,7 +277,6 @@
     <EmbeddedResource Include="Systems.resx">
       <DependentUpon>Systems.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="app.config" />
     <None Include="DataSet1.xsc">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
@@ -366,7 +365,6 @@
     <None Include="InvoiceDS.xss">
       <DependentUpon>InvoiceDS.xsd</DependentUpon>
     </None>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

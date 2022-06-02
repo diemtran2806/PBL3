@@ -370,7 +370,9 @@ namespace GUI
         public void SetRevenueChart(DataTable dt)
         {
 
-           
+            var enumerableTable = (dt as System.ComponentModel.IListSource).GetList();
+            dgv_Profit_Revenue_Chart.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            dgv_Profit_Revenue_Chart.DataBindTable(enumerableTable, "Date");
         }
 
         private void ShowCost()

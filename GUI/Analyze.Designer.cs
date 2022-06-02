@@ -41,12 +41,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -62,6 +56,12 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dvgSales_A = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -96,9 +96,7 @@
             this.rbDaily_Import_A = new Guna.UI2.WinForms.Guna2RadioButton();
             this.dtpAnnualy_Import_A = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.Chart_Profit_Revenue = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.btnShow_Profit_A = new Guna.UI2.WinForms.Guna2Button();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.btnProfit_Custom = new Guna.UI2.WinForms.Guna2Button();
             this.lbTo = new System.Windows.Forms.Label();
             this.dtp_Profit_Date_B = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -122,6 +120,8 @@
             this.cbProductsGroups = new Guna.UI2.WinForms.Guna2ComboBox();
             this.dgv_Analyze_Inventory = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.dgv_Profit_Revenue_Chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.dgv_Profit_Cost_Chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dvgSales_A)).BeginInit();
@@ -134,14 +134,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2GroupBox2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Chart_Profit_Revenue)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Profit_Cost)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Profit_Revenue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Analyze_Inventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Profit_Revenue_Chart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Profit_Cost_Chart)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2TabControl1
@@ -850,9 +850,9 @@
             // 
             this.tabPage3.AutoScroll = true;
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(205)))), ((int)(((byte)(238)))));
-            this.tabPage3.Controls.Add(this.Chart_Profit_Revenue);
+            this.tabPage3.Controls.Add(this.dgv_Profit_Revenue_Chart);
+            this.tabPage3.Controls.Add(this.dgv_Profit_Cost_Chart);
             this.tabPage3.Controls.Add(this.btnShow_Profit_A);
-            this.tabPage3.Controls.Add(this.chart1);
             this.tabPage3.Controls.Add(this.btnProfit_Custom);
             this.tabPage3.Controls.Add(this.lbTo);
             this.tabPage3.Controls.Add(this.dtp_Profit_Date_B);
@@ -879,26 +879,6 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Revenue Report";
             // 
-            // Chart_Profit_Revenue
-            // 
-            chartArea2.Name = "ChartArea1";
-            this.Chart_Profit_Revenue.ChartAreas.Add(chartArea2);
-            legend2.AutoFitMinFontSize = 5;
-            legend2.Name = "Legend1";
-            this.Chart_Profit_Revenue.Legends.Add(legend2);
-            this.Chart_Profit_Revenue.Location = new System.Drawing.Point(820, 298);
-            this.Chart_Profit_Revenue.Name = "Chart_Profit_Revenue";
-            this.Chart_Profit_Revenue.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series2.BorderWidth = 2;
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series2.IsValueShownAsLabel = true;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.Chart_Profit_Revenue.Series.Add(series2);
-            this.Chart_Profit_Revenue.Size = new System.Drawing.Size(545, 313);
-            this.Chart_Profit_Revenue.TabIndex = 72;
-            // 
             // btnShow_Profit_A
             // 
             this.btnShow_Profit_A.AutoRoundedCorners = true;
@@ -919,22 +899,6 @@
             this.btnShow_Profit_A.Text = "Show";
             this.btnShow_Profit_A.UseTransparentBackground = true;
             this.btnShow_Profit_A.Click += new System.EventHandler(this.btnShow_Profit_A_Click);
-            // 
-            // chart1
-            // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
-            this.chart1.Location = new System.Drawing.Point(820, 630);
-            this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
-            this.chart1.Size = new System.Drawing.Size(546, 313);
-            this.chart1.TabIndex = 70;
-            this.chart1.Text = "chart1";
             // 
             // btnProfit_Custom
             // 
@@ -1487,6 +1451,43 @@
             this.guna2PictureBox3.TabStop = false;
             this.guna2PictureBox3.UseTransparentBackground = true;
             // 
+            // dgv_Profit_Revenue_Chart
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.dgv_Profit_Revenue_Chart.ChartAreas.Add(chartArea2);
+            legend2.AutoFitMinFontSize = 5;
+            legend2.Name = "Legend1";
+            this.dgv_Profit_Revenue_Chart.Legends.Add(legend2);
+            this.dgv_Profit_Revenue_Chart.Location = new System.Drawing.Point(820, 298);
+            this.dgv_Profit_Revenue_Chart.Name = "dgv_Profit_Revenue_Chart";
+            this.dgv_Profit_Revenue_Chart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
+            series2.BorderWidth = 2;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.IsValueShownAsLabel = true;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.dgv_Profit_Revenue_Chart.Series.Add(series2);
+            this.dgv_Profit_Revenue_Chart.Size = new System.Drawing.Size(545, 313);
+            this.dgv_Profit_Revenue_Chart.TabIndex = 74;
+            // 
+            // dgv_Profit_Cost_Chart
+            // 
+            chartArea3.Name = "ChartArea1";
+            this.dgv_Profit_Cost_Chart.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.dgv_Profit_Cost_Chart.Legends.Add(legend3);
+            this.dgv_Profit_Cost_Chart.Location = new System.Drawing.Point(820, 630);
+            this.dgv_Profit_Cost_Chart.Name = "dgv_Profit_Cost_Chart";
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.dgv_Profit_Cost_Chart.Series.Add(series3);
+            this.dgv_Profit_Cost_Chart.Size = new System.Drawing.Size(546, 313);
+            this.dgv_Profit_Cost_Chart.TabIndex = 73;
+            this.dgv_Profit_Cost_Chart.Text = "chart1";
+            // 
             // Analyze
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1512,8 +1513,6 @@
             this.guna2GroupBox2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Chart_Profit_Revenue)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Profit_Cost)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Profit_Revenue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
@@ -1521,6 +1520,8 @@
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Analyze_Inventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Profit_Revenue_Chart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Profit_Cost_Chart)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1581,11 +1582,11 @@
         private System.Windows.Forms.Label blblblb;
         private Guna.UI2.WinForms.Guna2Button btnShow_Profit_A;
         private Guna.UI2.WinForms.Guna2Button btnProfit_Day;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.DataVisualization.Charting.Chart Chart_Profit_Revenue;
         private Guna.UI2.WinForms.Guna2DataGridView dgv_Analyze_Inventory;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2ComboBox cbProductsGroups;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.DataVisualization.Charting.Chart dgv_Profit_Revenue_Chart;
+        private System.Windows.Forms.DataVisualization.Charting.Chart dgv_Profit_Cost_Chart;
     }
 }
