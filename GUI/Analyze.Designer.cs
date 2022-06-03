@@ -56,12 +56,12 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dvgSales_A = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -850,8 +850,8 @@
             // 
             this.tabPage3.AutoScroll = true;
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(205)))), ((int)(((byte)(238)))));
-            this.tabPage3.Controls.Add(this.dgv_Profit_Revenue_Chart);
             this.tabPage3.Controls.Add(this.dgv_Profit_Cost_Chart);
+            this.tabPage3.Controls.Add(this.dgv_Profit_Revenue_Chart);
             this.tabPage3.Controls.Add(this.btnShow_Profit_A);
             this.tabPage3.Controls.Add(this.btnProfit_Custom);
             this.tabPage3.Controls.Add(this.lbTo);
@@ -1016,8 +1016,6 @@
             this.dgv_Profit_Cost.EnableHeadersVisualStyles = false;
             this.dgv_Profit_Cost.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgv_Profit_Cost.Location = new System.Drawing.Point(178, 630);
-            this.dgv_Profit_Cost.MaximumSize = new System.Drawing.Size(546, 313);
-            this.dgv_Profit_Cost.MinimumSize = new System.Drawing.Size(546, 313);
             this.dgv_Profit_Cost.Name = "dgv_Profit_Cost";
             this.dgv_Profit_Cost.ReadOnly = true;
             dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -1036,7 +1034,7 @@
             this.dgv_Profit_Cost.RowsDefaultCellStyle = dataGridViewCellStyle15;
             this.dgv_Profit_Cost.RowTemplate.Height = 30;
             this.dgv_Profit_Cost.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_Profit_Cost.Size = new System.Drawing.Size(546, 313);
+            this.dgv_Profit_Cost.Size = new System.Drawing.Size(387, 313);
             this.dgv_Profit_Cost.TabIndex = 61;
             this.dgv_Profit_Cost.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgv_Profit_Cost.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -1093,9 +1091,7 @@
             this.dgv_Profit_Revenue.DefaultCellStyle = dataGridViewCellStyle18;
             this.dgv_Profit_Revenue.EnableHeadersVisualStyles = false;
             this.dgv_Profit_Revenue.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgv_Profit_Revenue.Location = new System.Drawing.Point(178, 298);
-            this.dgv_Profit_Revenue.MaximumSize = new System.Drawing.Size(546, 313);
-            this.dgv_Profit_Revenue.MinimumSize = new System.Drawing.Size(546, 313);
+            this.dgv_Profit_Revenue.Location = new System.Drawing.Point(178, 311);
             this.dgv_Profit_Revenue.Name = "dgv_Profit_Revenue";
             this.dgv_Profit_Revenue.ReadOnly = true;
             dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -1114,7 +1110,7 @@
             this.dgv_Profit_Revenue.RowsDefaultCellStyle = dataGridViewCellStyle20;
             this.dgv_Profit_Revenue.RowTemplate.Height = 30;
             this.dgv_Profit_Revenue.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_Profit_Revenue.Size = new System.Drawing.Size(546, 313);
+            this.dgv_Profit_Revenue.Size = new System.Drawing.Size(387, 313);
             this.dgv_Profit_Revenue.TabIndex = 60;
             this.dgv_Profit_Revenue.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgv_Profit_Revenue.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -1453,40 +1449,45 @@
             // 
             // dgv_Profit_Revenue_Chart
             // 
-            chartArea2.Name = "ChartArea1";
-            this.dgv_Profit_Revenue_Chart.ChartAreas.Add(chartArea2);
-            legend2.AutoFitMinFontSize = 5;
-            legend2.Name = "Legend1";
-            this.dgv_Profit_Revenue_Chart.Legends.Add(legend2);
-            this.dgv_Profit_Revenue_Chart.Location = new System.Drawing.Point(820, 298);
+            chartArea3.Name = "ChartArea1";
+            this.dgv_Profit_Revenue_Chart.ChartAreas.Add(chartArea3);
+            legend3.AutoFitMinFontSize = 5;
+            legend3.Name = "Legend1";
+            this.dgv_Profit_Revenue_Chart.Legends.Add(legend3);
+            this.dgv_Profit_Revenue_Chart.Location = new System.Drawing.Point(593, 311);
             this.dgv_Profit_Revenue_Chart.Name = "dgv_Profit_Revenue_Chart";
             this.dgv_Profit_Revenue_Chart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series2.BorderWidth = 2;
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.IsValueShownAsLabel = true;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.dgv_Profit_Revenue_Chart.Series.Add(series2);
-            this.dgv_Profit_Revenue_Chart.Size = new System.Drawing.Size(545, 313);
+            series3.BorderWidth = 2;
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.IsXValueIndexed = true;
+            series3.Legend = "Legend1";
+            series3.Name = "Rivenue";
+            series3.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            this.dgv_Profit_Revenue_Chart.Series.Add(series3);
+            this.dgv_Profit_Revenue_Chart.Size = new System.Drawing.Size(772, 313);
             this.dgv_Profit_Revenue_Chart.TabIndex = 74;
             // 
             // dgv_Profit_Cost_Chart
             // 
-            chartArea3.Name = "ChartArea1";
-            this.dgv_Profit_Cost_Chart.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.dgv_Profit_Cost_Chart.Legends.Add(legend3);
-            this.dgv_Profit_Cost_Chart.Location = new System.Drawing.Point(820, 630);
+            chartArea2.Name = "ChartArea1";
+            this.dgv_Profit_Cost_Chart.ChartAreas.Add(chartArea2);
+            legend2.AutoFitMinFontSize = 5;
+            legend2.Name = "Legend1";
+            this.dgv_Profit_Cost_Chart.Legends.Add(legend2);
+            this.dgv_Profit_Cost_Chart.Location = new System.Drawing.Point(593, 630);
             this.dgv_Profit_Cost_Chart.Name = "dgv_Profit_Cost_Chart";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.dgv_Profit_Cost_Chart.Series.Add(series3);
-            this.dgv_Profit_Cost_Chart.Size = new System.Drawing.Size(546, 313);
-            this.dgv_Profit_Cost_Chart.TabIndex = 73;
-            this.dgv_Profit_Cost_Chart.Text = "chart1";
+            this.dgv_Profit_Cost_Chart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
+            series2.BorderWidth = 2;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsXValueIndexed = true;
+            series2.Legend = "Legend1";
+            series2.Name = "Rivenue";
+            series2.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            this.dgv_Profit_Cost_Chart.Series.Add(series2);
+            this.dgv_Profit_Cost_Chart.Size = new System.Drawing.Size(772, 313);
+            this.dgv_Profit_Cost_Chart.TabIndex = 75;
             // 
             // Analyze
             // 

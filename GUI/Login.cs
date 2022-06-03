@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DTO;
 using BLL;
+using System.Globalization;
 
 namespace GUI
 {
@@ -44,6 +45,8 @@ namespace GUI
                     //mf.load_data(txtUsername.Text);
                     string rs = txtUsername.Text + " / " + AccountBLL.Instance.getRole();
                     mf.mName(rs);
+                    string st = DateTime.Now.ToString("yyyyMMMdd",CultureInfo.InvariantCulture);
+                    MessageBox.Show(st);
                     this.Hide();
                     mf.ShowDialog();
                     this.Close();
