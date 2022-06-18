@@ -117,7 +117,7 @@ namespace DAL
         {
             string query = "insert into Inf_user(US,PW,Name,Gender,Birthday,Adress,PhoneNumber,Position,Email,Status) " +
                     "values ('" + account.US + "','" + account.PW + "',N'" + account.Name + "','" + account.Gender + "','" +
-                    account.Birthday + "',N'" + account.Adress + "','" + account.PhoneNumber + "','" 
+                    account.Birthday.ToString("yyyy - MM - dd") + "',N'" + account.Adress + "','" + account.PhoneNumber + "','" 
                     + account.Position + "','" + account.Email + "','" + account.Status + "')";
             DataProvider.Instance.ExcuteDB(query);
         }

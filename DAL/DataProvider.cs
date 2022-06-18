@@ -84,8 +84,8 @@ namespace DAL
         //để thực hiện update, delete
         public bool ExcuteDB(string query)
         {
-            try
-            {
+            /*try
+            {*/
                 using(SqlConnection cnt = Connection.getSqlConnection())
                 {
                     cnt.Open();
@@ -94,11 +94,11 @@ namespace DAL
                     cnt.Close();
                     return true;
                 }
-            }
+            /*}
             catch (Exception ex)
             {
                 return false;
-            }
+            }*/
         }
 
         public bool ExcuteDB(string query, byte [] byteData)

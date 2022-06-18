@@ -60,9 +60,9 @@ namespace GUI
             }
             else
             {
-                if (sendMail.Instance.checkMail(tbEmail.Text) != "OK") MessageBox.Show(sendMail.Instance.checkMail(tbEmail.Text) + "\nPlease re-enter your email");
+                /*if (sendMail.Instance.checkMail(tbEmail.Text) != "OK") MessageBox.Show(sendMail.Instance.checkMail(tbEmail.Text) + "\nPlease re-enter your email");
                 else
-                {
+                {*/
                     string mess = sendMail.Instance.Send(tbEmail.Text, "DCD Supermarkets", "Hello " + tbName.Text
                         + ",<br>You have been created a new account by the administrator, your password is: " + rd.ToString() +
                         ". You should change your password the first time you log in. Do not share your password with anyone for any reason.<br>The DCD team.");
@@ -90,7 +90,7 @@ namespace GUI
                     }
                     else MessageBox.Show(mess);
 
-                }
+                /*}*/
 
             }
         }
