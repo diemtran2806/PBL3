@@ -34,5 +34,7 @@ namespace GUI
             ReportProblem rp = new ReportProblem();
             rp.ShowDialog();
         }
+
+        
     }
 }

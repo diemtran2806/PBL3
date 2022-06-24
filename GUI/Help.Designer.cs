@@ -30,12 +30,13 @@
         {
             this.btnHow = new Guna.UI2.WinForms.Guna2Button();
             this.btnProblem = new Guna.UI2.WinForms.Guna2Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnHow
             // 
             this.btnHow.BackColor = System.Drawing.Color.Transparent;
-            this.btnHow.BorderRadius = 15;
+            this.btnHow.BorderRadius = 3;
             this.btnHow.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnHow.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnHow.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -43,19 +44,19 @@
             this.btnHow.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
             this.btnHow.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
             this.btnHow.ForeColor = System.Drawing.Color.White;
-            this.btnHow.Location = new System.Drawing.Point(423, 190);
+            this.btnHow.Location = new System.Drawing.Point(73, 250);
             this.btnHow.Margin = new System.Windows.Forms.Padding(4);
             this.btnHow.Name = "btnHow";
             this.btnHow.Size = new System.Drawing.Size(254, 44);
             this.btnHow.TabIndex = 23;
-            this.btnHow.Text = "How to use this app";
+            this.btnHow.Text = "How to use this app ?";
             this.btnHow.UseTransparentBackground = true;
             this.btnHow.Click += new System.EventHandler(this.btnHow_Click);
             // 
             // btnProblem
             // 
             this.btnProblem.BackColor = System.Drawing.Color.Transparent;
-            this.btnProblem.BorderRadius = 15;
+            this.btnProblem.BorderRadius = 3;
             this.btnProblem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnProblem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnProblem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -63,31 +64,47 @@
             this.btnProblem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
             this.btnProblem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
             this.btnProblem.ForeColor = System.Drawing.Color.White;
-            this.btnProblem.Location = new System.Drawing.Point(131, 190);
+            this.btnProblem.Location = new System.Drawing.Point(73, 176);
             this.btnProblem.Margin = new System.Windows.Forms.Padding(4);
             this.btnProblem.Name = "btnProblem";
             this.btnProblem.Size = new System.Drawing.Size(254, 44);
             this.btnProblem.TabIndex = 24;
-            this.btnProblem.Text = "Report  a problem";
+            this.btnProblem.Text = "Report a bug !";
             this.btnProblem.UseTransparentBackground = true;
             this.btnProblem.Click += new System.EventHandler(this.btnProblem_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label2.Location = new System.Drawing.Point(116, 75);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(176, 30);
+            this.label2.TabIndex = 32;
+            this.label2.Text = "May I help you?";
             // 
             // Help
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(398, 356);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnProblem);
             this.Controls.Add(this.btnHow);
             this.Name = "Help";
             this.Text = "Help";
             this.Load += new System.EventHandler(this.Help_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
         private Guna.UI2.WinForms.Guna2Button btnHow;
         private Guna.UI2.WinForms.Guna2Button btnProblem;
+        private System.Windows.Forms.Label label2;
     }
 }
