@@ -28,28 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSystem = new Guna.UI2.WinForms.Guna2Button();
             this.btnHow = new Guna.UI2.WinForms.Guna2Button();
+            this.btnProblem = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
-            // 
-            // btnSystem
-            // 
-            this.btnSystem.BackColor = System.Drawing.Color.Transparent;
-            this.btnSystem.BorderRadius = 15;
-            this.btnSystem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSystem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSystem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSystem.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSystem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
-            this.btnSystem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.btnSystem.ForeColor = System.Drawing.Color.White;
-            this.btnSystem.Location = new System.Drawing.Point(130, 190);
-            this.btnSystem.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSystem.Name = "btnSystem";
-            this.btnSystem.Size = new System.Drawing.Size(254, 44);
-            this.btnSystem.TabIndex = 23;
-            this.btnSystem.Text = "Report  a problem";
-            this.btnSystem.UseTransparentBackground = true;
             // 
             // btnHow
             // 
@@ -71,13 +52,33 @@
             this.btnHow.UseTransparentBackground = true;
             this.btnHow.Click += new System.EventHandler(this.btnHow_Click);
             // 
+            // btnProblem
+            // 
+            this.btnProblem.BackColor = System.Drawing.Color.Transparent;
+            this.btnProblem.BorderRadius = 15;
+            this.btnProblem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnProblem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnProblem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnProblem.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnProblem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(166)))), ((int)(((byte)(192)))));
+            this.btnProblem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
+            this.btnProblem.ForeColor = System.Drawing.Color.White;
+            this.btnProblem.Location = new System.Drawing.Point(131, 190);
+            this.btnProblem.Margin = new System.Windows.Forms.Padding(4);
+            this.btnProblem.Name = "btnProblem";
+            this.btnProblem.Size = new System.Drawing.Size(254, 44);
+            this.btnProblem.TabIndex = 24;
+            this.btnProblem.Text = "Report  a problem";
+            this.btnProblem.UseTransparentBackground = true;
+            this.btnProblem.Click += new System.EventHandler(this.btnProblem_Click);
+            // 
             // Help
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnProblem);
             this.Controls.Add(this.btnHow);
-            this.Controls.Add(this.btnSystem);
             this.Name = "Help";
             this.Text = "Help";
             this.Load += new System.EventHandler(this.Help_Load);
@@ -86,8 +87,7 @@
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Button btnSystem;
         private Guna.UI2.WinForms.Guna2Button btnHow;
+        private Guna.UI2.WinForms.Guna2Button btnProblem;
     }
 }
