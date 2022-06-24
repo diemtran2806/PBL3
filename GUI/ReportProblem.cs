@@ -16,5 +16,16 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                MessageBox.Show("Thank you for reporting the bug. It's very helpful for us!");
+                txtEmail.Text = "";
+                txtDesc.Text = "";
+                txtTitle.Text = "";
+            }
+        }
     }
 }

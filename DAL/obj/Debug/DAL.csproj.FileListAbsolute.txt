@@ -198,3 +198,4 @@ C:\Users\lvdle\source\repos\PBL3\DAL\bin\Debug\pt\Microsoft.ReportViewer.WinForm
 C:\Users\lvdle\source\repos\PBL3\DAL\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\lvdle\source\repos\PBL3\DAL\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\lvdle\source\repos\PBL3\DAL\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\lvdle\source\repos\PBL3\DAL\bin\Debug\DTO.dll.config
