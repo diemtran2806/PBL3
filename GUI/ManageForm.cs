@@ -36,17 +36,17 @@ namespace GUI
             addCbSearchCustomer();
             addCbSearchSupply();
             setCBBName_Supply();
-            setCBBID_Products();
+            //setCBBID_Products();
             cbbName_Product.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             cbbName_Product.AutoCompleteSource = AutoCompleteSource.ListItems;
             cbbName_Product.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             //setCBBDiscount();
 
-            addTab();
+            //addTab();
             Show_Customer();
             Show();
             cbProductsGroups.SelectedIndex = 0;
-            Show_Product(getCurrenGroupName());
+            //Show_Product(getCurrenGroupName());
             Show_Supply();
             showDgvSH();
             cb_point.Hide();
