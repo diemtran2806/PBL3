@@ -128,10 +128,18 @@ namespace GUI
         {
             int s = 0;
             int n = 0;
+            int numberOfRecords = dt.Rows.Count;
+            MessageBox.Show(numberOfRecords.ToString());
             foreach (DataRow i in dt.Rows)
             {
-                s += Convert.ToInt32(dt.Rows[n][nameColumn]);
-                n++;
+                if (numberOfRecords != 0)
+                {
+                    if (!string.IsNullOrEmpty(dt.Rows[n][nameColumn].ToString()))
+                    {
+                        s += Convert.ToInt32(dt.Rows[n][nameColumn]);
+                    }
+                    n++;
+                }
             }
             return s;
         }

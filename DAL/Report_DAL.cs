@@ -105,7 +105,8 @@ namespace DAL
         {
             
             string query = "select Products.Name_P, Products.Unit_P, sum(DetailImportProduct.Amount_IP) as Quantity, DetailImportProduct.IP_Price as Price, sum(DetailImportProduct.Total) as Total " +
-                 "from((DetailImportProduct " +
+                 "from(" +
+                 "(DetailImportProduct " +
                  $"inner join(select * from ImportProduct where ImportProduct.Date_Import between '{date1.ToString("yyyy - MM - dd")}' and '{date2.ToString("yyyy - MM - dd")}') as ImportProduct " +
                  "on DetailImportProduct.ID_IP = ImportProduct.ID_IP) " +
                  "left join Products " +
@@ -120,7 +121,7 @@ namespace DAL
         public DataTable GetRevenueByDate(DateTime date1, DateTime date2)
         {
 
-            string query = "select ImportProduct.Date_Import as Date, sum(DetailImportProduct.Total) as Revenue " +
+            string query = "select ImportProduct.Date_Import as Date, sum(case when DetailImportProduct.Total is null then 0 else DetailImportProduct.Total end) as Revenue " +
                 $"from (select * from ImportProduct where Date_Import between '{date1.ToString("yyyy - MM - dd")}' and '{date2.ToString("yyyy - MM - dd")}') as ImportProduct " +
                 "left join DetailImportProduct on ImportProduct.ID_IP = DetailImportProduct.ID_IP " +
                 "group by ImportProduct.Date_Import";
@@ -130,7 +131,7 @@ namespace DAL
         public DataTable GetCostByDate(DateTime date1, DateTime date2)
         {
 
-            string query = "select Invoice.Invoice_Date as Date, sum(InvoiceDetail.Amount) as Cost " +
+            string query = "select Invoice.Invoice_Date as Date, sum(case when InvoiceDetail.Amount is null then 0 else InvoiceDetail.Amount end) as Cost " +
                 $"from (select * from Invoice where Invoice_Date between '{date1.ToString("yyyy - MM - dd")}' and '{date2.ToString("yyyy - MM - dd")}') as Invoice " +
                 "left join InvoiceDetail " +
                 "on Invoice.ID_Invoice = InvoiceDetail.ID_Invoice " +
